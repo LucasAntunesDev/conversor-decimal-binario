@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "tw": "tailwindcss -i ./css/index.css -o ./css/estilo.css --watch"
+  }
+}

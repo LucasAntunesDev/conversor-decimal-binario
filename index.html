@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter número</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="min-h-screen">
+    <header class="flex flex-row justify-between items-center px-12 gap-x-4 
+    h-16 text-verde-500 min-w-screen max-w-available flex-wrap py-4 md:py-0 gap-y-2 md:gap-y-0">
+
+        <a href="">
+            <img src="https://lucasantunesdev.github.io/LucasAntunes.dev/src/imgs/logo.svg"
+                alt="Logo do LucasAntunes.dev" class=" w-[16rem]
+    transition ease-in-out duration-300 cursor-pointer dark:brightness-[100]">
+        </a>
+
+        <a href="https://github.com/LucasAntunesDev">
+            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" viewBox="0 0 256 256" width="256"
+                height="256" class="size-7 fill-violet-500 hover:fill-violet-500 hover:cursor-pointer">
+                <rect x="64" y="0" width="16" height="16"></rect>
+                <rect x="80" y="0" width="16" height="16"></rect>
+                <rect x="96" y="0" width="16" height="16"></rect>
+                <rect x="112" y="0" width="16" height="16"></rect>
+                <rect x="128" y="0" width="16" height="16"></rect>
+                <rect x="144" y="0" width="16" height="16"></rect>
+                <rect x="160" y="0" width="16" height="16"></rect>
+                <rect x="176" y="0" width="16" height="16"></rect>
+                <rect x="48" y="16" width="16" height="16"></rect>
+                <rect x="64" y="16" width="16" height="16"></rect>
+                <rect x="80" y="16" width="16" height="16"></rect>
+                <rect x="96" y="16" width="16" height="16"></rect>
+                <rect x="112" y="16" width="16" height="16"></rect>
+                <rect x="128" y="16" width="16" height="16"></rect>
+                <rect x="144" y="16" width="16" height="16"></rect>
+                <rect x="160" y="16" width="16" height="16"></rect>
+                <rect x="176" y="16" width="16" height="16"></rect>
+                <rect x="192" y="16" width="16" height="16"></rect>
+                <rect x="32" y="32" width="16" height="16"></rect>
+                <rect x="48" y="32" width="16" height="16"></rect>
+                <rect x="64" y="32" width="16" height="16"></rect>
+                <rect x="80" y="32" width="16" height="16"></rect>
+                <rect x="96" y="32" width="16" height="16"></rect>
+                <rect x="112" y="32" width="16" height="16"></rect>
+                <rect x="128" y="32" width="16" height="16"></rect>
+                <rect x="144" y="32" width="16" height="16"></rect>
+                <rect x="160" y="32" width="16" height="16"></rect>
+                <rect x="176" y="32" width="16" height="16"></rect>
+                <rect x="192" y="32" width="16" height="16"></rect>
+                <rect x="208" y="32" width="16" height="16"></rect>
+                <rect x="16" y="48" width="16" height="16"></rect>
+                <rect x="32" y="48" width="16" height="16"></rect>
+                <rect x="48" y="48" width="16" height="16"></rect>
+                <rect x="80" y="48" width="16" height="16"></rect>
+                <rect x="96" y="48" width="16" height="16"></rect>
+                <rect x="112" y="48" width="16" height="16"></rect>
+                <rect x="128" y="48" width="16" height="16"></rect>
+                <rect x="144" y="48" width="16" height="16"></rect>
+                <rect x="160" y="48" width="16" height="16"></rect>
+                <rect x="192" y="48" width="16" height="16"></rect>
+                <rect x="208" y="48" width="16" height="16"></rect>
+                <rect x="224" y="48" width="16" height="16"></rect>
+                <rect x="16" y="64" width="16" height="16"></rect>
+                <rect x="32" y="64" width="16" height="16"></rect>
+                <rect x="48" y="64" width="16" height="16"></rect>
+                <rect x="192" y="64" width="16" height="16"></rect>
+                <rect x="208" y="64" width="16" height="16"></rect>
+                <rect x="224" y="64" width="16" height="16"></rect>
+                <rect x="16" y="80" width="16" height="16"></rect>
+                <rect x="32" y="80" width="16" height="16"></rect>
+                <rect x="48" y="80" width="16" height="16"></rect>
+                <rect x="192" y="80" width="16" height="16"></rect>
+                <rect x="208" y="80" width="16" height="16"></rect>
+                <rect x="224" y="80" width="16" height="16"></rect>
+                <rect x="0" y="96" width="16" height="16"></rect>
+                <rect x="16" y="96" width="16" height="16"></rect>
+                <rect x="32" y="96" width="16" height="16"></rect>
+                <rect x="208" y="96" width="16" height="16"></rect>
+                <rect x="224" y="96" width="16" height="16"></rect>
+                <rect x="240" y="96" width="16" height="16"></rect>
+                <rect x="0" y="112" width="16" height="16"></rect>
+                <rect x="16" y="112" width="16" height="16"></rect>
+                <rect x="32" y="112" width="16" height="16"></rect>
+                <rect x="208" y="112" width="16" height="16"></rect>
+                <rect x="224" y="112" width="16" height="16"></rect>
+                <rect x="240" y="112" width="16" height="16"></rect>
+                <rect x="0" y="128" width="16" height="16"></rect>
+                <rect x="16" y="128" width="16" height="16"></rect>
+                <rect x="32" y="128" width="16" height="16"></rect>
+                <rect x="208" y="128" width="16" height="16"></rect>
+                <rect x="224" y="128" width="16" height="16"></rect>
+                <rect x="240" y="128" width="16" height="16"></rect>
+                <rect x="0" y="144" width="16" height="16"></rect>
+                <rect x="16" y="144" width="16" height="16"></rect>
+                <rect x="32" y="144" width="16" height="16"></rect>
+                <rect x="208" y="144" width="16" height="16"></rect>
+                <rect x="224" y="144" width="16" height="16"></rect>
+                <rect x="240" y="144" width="16" height="16"></rect>
+                <rect x="0" y="160" width="16" height="16"></rect>
+                <rect x="16" y="160" width="16" height="16"></rect>
+                <rect x="32" y="160" width="16" height="16"></rect>
+                <rect x="48" y="160" width="16" height="16"></rect>
+                <rect x="192" y="160" width="16" height="16"></rect>
+                <rect x="208" y="160" width="16" height="16"></rect>
+                <rect x="224" y="160" width="16" height="16"></rect>
+                <rect x="240" y="160" width="16" height="16"></rect>
+                <rect x="16" y="176" width="16" height="16"></rect>
+                <rect x="32" y="176" width="16" height="16"></rect>
+                <rect x="48" y="176" width="16" height="16"></rect>
+                <rect x="64" y="176" width="16" height="16"></rect>
+                <rect x="176" y="176" width="16" height="16"></rect>
+                <rect x="192" y="176" width="16" height="16"></rect>
+                <rect x="208" y="176" width="16" height="16"></rect>
+                <rect x="224" y="176" width="16" height="16"></rect>
+                <rect x="16" y="192" width="16" height="16"></rect>
+                <rect x="32" y="192" width="16" height="16"></rect>
+                <rect x="64" y="192" width="16" height="16"></rect>
+                <rect x="80" y="192" width="16" height="16"></rect>
+                <rect x="96" y="192" width="16" height="16"></rect>
+                <rect x="144" y="192" width="16" height="16"></rect>
+                <rect x="160" y="192" width="16" height="16"></rect>
+                <rect x="176" y="192" width="16" height="16"></rect>
+                <rect x="192" y="192" width="16" height="16"></rect>
+                <rect x="208" y="192" width="16" height="16"></rect>
+                <rect x="224" y="192" width="16" height="16"></rect>
+                <rect x="32" y="208" width="16" height="16"></rect>
+                <rect x="48" y="208" width="16" height="16"></rect>
+                <rect x="160" y="208" width="16" height="16"></rect>
+                <rect x="176" y="208" width="16" height="16"></rect>
+                <rect x="192" y="208" width="16" height="16"></rect>
+                <rect x="208" y="208" width="16" height="16"></rect>
+                <rect x="48" y="224" width="16" height="16"></rect>
+                <rect x="64" y="224" width="16" height="16"></rect>
+                <rect x="80" y="224" width="16" height="16"></rect>
+                <rect x="96" y="224" width="16" height="16"></rect>
+                <rect x="160" y="224" width="16" height="16"></rect>
+                <rect x="176" y="224" width="16" height="16"></rect>
+                <rect x="192" y="224" width="16" height="16"></rect>
+                <rect x="64" y="240" width="16" height="16"></rect>
+                <rect x="80" y="240" width="16" height="16"></rect>
+                <rect x="96" y="240" width="16" height="16"></rect>
+                <rect x="160" y="240" width="16" height="16"></rect>
+                <rect x="176" y="240" width="16" height="16"></rect>
+            </svg>
+        </a>
+
+    </header>
+
+    <div class="flex items-center gap-2 mt-16">
+        <section class="flex flex-col items-center gap-2 w-6/12 h-auto">
+
+            <h1 class="text-4xl text-violet-500 font-bold w-fit font-pixel">
+                Converter número
+            </h1>
+
+            <form action="#" class="my-2 flex gap-4 mt-4 *:p-2 *:border-4 *:w-52 *:transition *:duration-300 *:ease-in-out font-pixel">
+
+                <input type="text" name="numero" id="numero"
+                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" required
+                    class="bg-transparent outline-none focus:border-b-violet-500
+                    border-l-violet-100 border-t-violet-100 border-b-violet-300 border-r-violet-300" />
+
+                <button type="submit" class="bg-violet-500 text-white border-l-violet-300 border-t-violet-300 border-b-violet-700 border-r-violet-700 hover:translate-x-1 hover:-translate-y-1 hover:cursor-pointer" id="btn">
+                    Converter
+                </button>
+            </form>
+
+        </section>
+
+        <section class="flex flex-col items-center gap-2 w-6/12">
+            <span class="text-4xl text-violet-500 font-bold w-fit font-pixel">Em binário:</span>
+            <span class="text-xl text-neutral-700 font-bold w-fit font-pixel" id="resultado"></span>
+        </section>
+    </div>
+
+    <footer class="flex flex-row justify-center items-center
+        text-verde-500 min-w-screen max-w-available md:py-0 gap-y-2 md:gap-y-0
+        bottom-0 mt-20 h-16 w-screen fixed bg-white">
+        <span class="font-pixel text-violet-500 text-center">
+            Desenvolvido por Lucas Antunes,
+            <span id="ano"></span>
+        </span>
+    </footer>
+</body>
+
+
+<script src="index.js"></script>
+
+</html>

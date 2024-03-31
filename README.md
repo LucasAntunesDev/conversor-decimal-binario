@@ -1,2 +1,2 @@
 # Conversor decimal ➡️ binário
-Conversor simples feito em php de números decimais para binários.
+Conversor simples feito em Javascript de números decimais para binários.
