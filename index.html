@@ -155,14 +155,14 @@
 
     </header>
 
-    <div class="flex items-center gap-2 mt-16">
-        <section class="flex flex-col items-center gap-2 w-6/12 h-auto">
+    <div class="flex flex-col md:flex-row items-center gap-2 mt-16">
+        <section class="flex flex-col items-center gap-2 w-6/12 md:h-auto md:w-6/12">
 
             <h1 class="text-4xl text-violet-500 font-bold w-fit font-pixel">
                 Converter número
             </h1>
 
-            <form action="#" class="my-2 flex gap-4 mt-4 *:p-2 *:border-4 *:w-52 *:transition *:duration-300 *:ease-in-out font-pixel">
+            <form action="#" class="my-2 flex flex-col md:flex-row gap-4 mt-4 *:p-2 *:border-4 *:w-52 *:transition *:duration-300 *:ease-in-out font-pixel">
 
                 <input type="text" name="numero" id="numero"
                     oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" required
@@ -176,7 +176,7 @@
 
         </section>
 
-        <section class="flex flex-col items-center gap-2 w-6/12">
+        <section class="flex flex-col items-center gap-2 md:w-6/12 px-4 md:px-0">
             <span class="text-4xl text-violet-500 font-bold w-fit font-pixel">Em binário:</span>
             <span class="text-xl text-neutral-700 font-bold w-fit font-pixel" id="resultado"></span>
         </section>

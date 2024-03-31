@@ -592,21 +592,8 @@ video {
   height: 4rem;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-auto {
-  height: auto;
-}
-
 .min-h-screen {
   min-height: 100vh;
-}
-
-.w-52 {
-  width: 13rem;
 }
 
 .w-6\/12 {
@@ -671,25 +658,9 @@ video {
   row-gap: 0.5rem;
 }
 
-.gap-y-4 {
-  row-gap: 1rem;
-}
-
-.border-4 {
-  border-width: 4px;
-}
-
-.border-b {
-  border-bottom-width: 1px;
-}
-
-.border-t-4 {
-  border-top-width: 4px;
-}
-
-.border-b-neutral-900 {
+.border-b-violet-300 {
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(23 23 23 / var(--tw-border-opacity));
+  border-bottom-color: rgb(196 181 253 / var(--tw-border-opacity));
 }
 
 .border-b-violet-700 {
@@ -697,9 +668,19 @@ video {
   border-bottom-color: rgb(109 40 217 / var(--tw-border-opacity));
 }
 
+.border-l-violet-100 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(237 233 254 / var(--tw-border-opacity));
+}
+
 .border-l-violet-300 {
   --tw-border-opacity: 1;
   border-left-color: rgb(196 181 253 / var(--tw-border-opacity));
+}
+
+.border-r-violet-300 {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(196 181 253 / var(--tw-border-opacity));
 }
 
 .border-r-violet-700 {
@@ -717,26 +698,6 @@ video {
   border-top-color: rgb(196 181 253 / var(--tw-border-opacity));
 }
 
-.border-t-violet-200 {
-  --tw-border-opacity: 1;
-  border-top-color: rgb(221 214 254 / var(--tw-border-opacity));
-}
-
-.border-b-violet-300 {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(196 181 253 / var(--tw-border-opacity));
-}
-
-.border-l-violet-100 {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(237 233 254 / var(--tw-border-opacity));
-}
-
-.border-r-violet-300 {
-  --tw-border-opacity: 1;
-  border-right-color: rgb(196 181 253 / var(--tw-border-opacity));
-}
-
 .bg-transparent {
   background-color: transparent;
 }
@@ -751,17 +712,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
-
 .fill-violet-500 {
   fill: #8b5cf6;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-12 {
@@ -774,17 +726,17 @@ video {
   padding-bottom: 1rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-pixel {
   font-family: "Press Start 2P", system-ui;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-4xl {
@@ -814,12 +766,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .outline-none {
@@ -853,10 +799,6 @@ video {
 
 .\*\:p-2 > * {
   padding: 0.5rem;
-}
-
-.\*\:font-pixel > * {
-  font-family: "Press Start 2P", system-ui;
 }
 
 .\*\:transition > * {
@@ -893,30 +835,24 @@ video {
   fill: #8b5cf6;
 }
 
-.\*\:hover\:translate-x-1:hover > * {
-  --tw-translate-x: 0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.\*\:hover\:-translate-y-1:hover > * {
-  --tw-translate-y: -0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.\*\:hover\:cursor-pointer:hover > * {
-  cursor: pointer;
-}
-
-.last\:hover\:cursor-pointer:hover:last-child {
-  cursor: pointer;
-}
-
 .focus\:border-b-violet-500:focus {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(139 92 246 / var(--tw-border-opacity));
 }
 
 @media (min-width: 768px) {
+  .md\:h-auto {
+    height: auto;
+  }
+
+  .md\:w-6\/12 {
+    width: 50%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:gap-y-0 {
     row-gap: 0px;
   }
@@ -924,6 +860,11 @@ video {
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
